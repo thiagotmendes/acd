@@ -2,7 +2,7 @@
 <?php get_header() ?>
 
     <section class="banner">
-      <img src="<?php echo get_template_directory_uri() ?>/images/banner.jpg" alt="" class="img-responsive"/>
+      <?php echo do_shortcode('[rev_slider alias="home"]') ?>
     </section>
 
     <section class="conteudo">
@@ -21,7 +21,9 @@
           </div>
           <div class="col-md-6">
             <h2 align="center"><span class="titulo-home">Membros</span></h2>
-            <p align="center"><img src="<?php echo get_template_directory_uri() ?>/images/foto.jpg" alt="" class="img-responsive img-membros"/></p>
+            <a href="<?php echo esc_url( home_url( 'membros' ) ); ?>">
+              <p align="center"><img src="<?php echo get_template_directory_uri() ?>/images/foto.jpg" alt="" class="img-responsive img-membros"/></p>
+            </a>
           </div>
         </div>
       </div>
@@ -43,9 +45,11 @@
               <div class="col-md-4">
                 <div class="noticia-home">
                   <?php if (has_post_thumbnail()): ?>
+                    <div class="img-noticia">
                       <a href="<?php the_permalink(); ?>">
                         <?php the_post_thumbnail( 'high', array( 'class' => 'img-responsive' ) ); ?>
                       </a>
+                    </div>
                   <?php endif; ?>
                   <h2 class="titulo-noticia"> <?php the_title() ?> </h2>
                   <p class="previa-home">

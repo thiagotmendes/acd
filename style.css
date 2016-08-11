@@ -62,6 +62,10 @@ body {
   font-weight: bold;
 }
 
+.sidebar{
+  padding-top: 40px;
+}
+
 /*****************************************/
 /********* NOTICIAS HOME ****************/
 .titulo-noticia {

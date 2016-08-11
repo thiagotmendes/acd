@@ -1,4 +1,4 @@
-<aside class="">
+<aside class="sidebar">
 <?php
 // Inserindo uma área de Widgets
 if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Lateral') ) :?>
