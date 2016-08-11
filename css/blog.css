@@ -1,0 +1,93 @@
+/*****************************************/
+/*********   BLOG ************************/
+.bloco-noticia{
+  background-color: #fff;
+  border: #d3d3d3 solid 1px;
+  margin-bottom: 25px;
+}
+
+.btn-site{
+  background-color: #367251;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-site:hover{
+  background-color: #24553a;
+  color: #fff;
+}
+
+.titulo-noticia, .titulo-noticia a{
+  color: #367251;
+  text-align: center;
+}
+
+.titulo-noticia a:hover{
+  color:  #24553a;
+  text-decoration: none;
+}
+
+.data-noticia{
+  text-align: center;
+  color: #c5c5c5;
+}
+
+.conteudo-artigo{
+  padding: 25px;
+}
+
+/**************************************/
+/*********** WIDGETS ******************/
+.panel-bos{
+  background-color: #fff;
+  border: #d3d3d3 solid 1px;
+  margin-bottom: 15px;
+  border-radius: 0px !important;
+}
+
+.panel-bos .panel-heading{
+  border-top: #939393 solid 5px;
+  background-color: #464646;
+  color: #939393;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.panel-bos .panel-heading h3{
+  margin: 0px;
+  font-weight: bold !important;
+  font-size: 18px !important;
+}
+
+.panel-bos ul{
+  margin: 10px 15px;
+  list-style: none;
+  padding: 0px;
+}
+
+.panel-bos ul li a{
+  color: #4b4b4b;
+}
+
+.panel-bos ul li a:hover{
+  color: #832161;
+  text-decoration: none;
+}
+
+.panel-bos ul li{
+  padding-left: 10px;
+  margin-bottom: 8px;
+}
+
+.panel-bos ul li:before{
+  content: url(images/seta-menu-lateral.jpg);
+  margin-right: 8px;
+}
+
+.newslateral{
+  padding: 15px;
+  text-align: center;
+}

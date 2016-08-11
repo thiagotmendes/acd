@@ -1,0 +1,173 @@
+/*
+Theme Name: Academia Mineira de medicina
+Theme URI:
+Author: Des: 4media Diretor de arte: Raphael Ribeiro  Dev:Thiago Mendes
+Author URI:
+Description: Thema desenvolvido por Thiago Mendes e Raphael Ribeiro
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Bootstrap,HTML, CSS
+Text Domain: Restaurante paladino
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body {
+  font-family: 'Lato', sans-serif !important;
+}
+
+.bar-top {
+  background: #f1f2f2;
+  border-top: 10px solid #367251;
+  padding: 10px 0;
+}
+
+.itens-top {
+  float: right;
+  color: #367251;
+  padding-right: 15px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.contato-top {
+  padding-right: 25px;
+}
+
+.conteudo {
+  margin: 25px 0;
+}
+
+.titulo-home {
+  color: #414042;
+  text-transform: uppercase;
+  text-align: center;
+  border-top: 2px solid #367251;
+  font-weight: bold;
+  margin: 20px 0;
+  padding-top: 10px;
+}
+
+.titulo-interno{
+  background-color: #367251;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  padding: 50px 0;
+  margin-bottom: 35px;
+  text-shadow: #000 1px 2px;
+  font-weight: bold;
+}
+
+/*****************************************/
+/********* NOTICIAS HOME ****************/
+.titulo-noticia {
+  text-align: center;
+  color: #414042;
+  font-weight: bold;
+}
+
+.noticia {
+  padding-bottom: 25px;
+  padding-top: 25px
+}
+
+.previa-home {
+  color: #6d6e71;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.noticia-home {
+  border: 1px solid #6d6e71;
+  border-top: 6px solid #367251;
+  margin-top: 15px;
+}
+
+.btn-noticia-home {
+  color: #367251;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn-noticia-home:hover {
+  color: #414052;
+  text-decoration: none;
+}
+
+.reseta-row .col-md-4 {
+  padding: 0 !important;
+}
+/***************************************/
+/****** BLOG *****/
+.main-site{
+  min-height: 600px;
+}
+
+.conteudo-noticia{
+  padding: 0px 25px;
+}
+
+/************************************/
+/**************MENU****************/
+
+.navbar-brand {
+  height: auto !important;
+  padding: 0 15px !important;
+}
+
+.navbar-acadmed {
+  background: #fff;
+}
+
+/*.navbar-nav {
+  margin-top: 20px !important;
+}*/
+
+.navbar-nav > li > a {
+  color: #6d6e71;
+  font-size: 26px;
+  border-top: 2px solid transparent;
+  padding-top: 70px !important;
+}
+
+.navbar-acadmed .navbar-nav > li > a:hover,
+.navbar-acadmed .navbar-nav > li > a:focus,
+.navbar-acadmed .navbar-nav > li.active > a{
+  background: transparent !important;
+  border-top: 2px solid #367251;
+  color: #367251;
+}
+
+/********************************/
+
+/**************FOOTER***********/
+
+footer {
+  background: #f1f2f2;
+  margin-top: 30px;
+  color: #484848;
+}
+
+
+.end-footer {
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.itens-footer {
+  color: #367251;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.tel-footer {
+  padding-right: 10px;
+}
+
+/******************************/
