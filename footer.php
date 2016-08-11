@@ -11,7 +11,7 @@
               <span>CEP 30130-183. BELO HORIZONTE - MINAS GERAIS</span>
             </p>
             <p class="itens-footer">
-              <span class="tel-footer"><img src="<?php echo get_template_directory_uri() ?>/images/icon-phone.png" alt="" /> (31) 3273.3287</span>
+              <span class="tel-footer"><img src="<?php echo get_template_directory_uri() ?>/images/icon-phone.png" alt="" /> (31) 3247.1606</span>
               <span><img src="<?php echo get_template_directory_uri() ?>/images/icon-mail.png" alt="" /> contato@acadmed.org.br</span>
             </p>
           </div>

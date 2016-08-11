@@ -43,7 +43,7 @@
           <div class="row">
             <div class="col-md-12">
               <p class="itens-top">
-                <span class="contato-top"><img src="<?php echo get_template_directory_uri() ?>/images/icon-phone.png" alt="" /> (31) 3273.3287</span>
+                <span class="contato-top"><img src="<?php echo get_template_directory_uri() ?>/images/icon-phone.png" alt="" /> (31) 3247.1606</span>
                 <span><img src="<?php echo get_template_directory_uri() ?>/images/icon-mail.png" alt="" /> contato@acadmed.org.br</span>
               </p>
             </div>
